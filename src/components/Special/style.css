@@ -1,0 +1,56 @@
+.special{
+    background: linear-gradient(90deg, rgba(16, 20, 24, 0.70) 0%, #101418 100%),    url('../About/1.png');
+    padding-top: 50px;
+}
+h2{
+    color: #FFCE6D;
+    font-family: 'Dancing Script', cursive !important;
+    font-size: 36px;
+    margin: 0;
+    padding-top: 2%;
+    text-align: center;
+}
+h3{
+    color: #FFFFFC;
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: capitalize;
+    line-height: 35.19px;
+    word-wrap: break-word;
+    text-align: center;
+}
+.app{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 150px;
+}
+.child{
+    /* height: 100%;  */
+    background: rgba(160.44, 128.44, 64.44, 0.30); 
+    border: 0.50px #FFCE6D dotted;
+    text-align: center;
+    margin-top: 25px;
+    padding: 60px 30px;
+    margin-left: 51px;
+    margin-right: 51px;
+}
+.child p{
+    color: #FFFFFC;
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: capitalize;
+    line-height: 28.15px;
+    word-wrap: break-word
+}
+.child span{
+    text-align: right !important;
+    color: #FFFFFC;
+    font-size: 14px;
+    font-family: Roboto;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 21.74px;
+    letter-spacing: 1.82px;
+    word-wrap: break-word
+}

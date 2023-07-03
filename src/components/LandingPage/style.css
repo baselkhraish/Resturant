@@ -1,0 +1,73 @@
+.landing{
+    background-image: url('./landingpage.png');
+    background: linear-gradient(180deg, rgba(16, 20, 24, 0) 0%, #101418 100%),    url('./landingpage.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+}
+header{
+    padding-top: 7.5%;
+}
+header nav{
+    background-color: #101418;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 16%;
+    margin-right: 16%;
+}
+header nav .tags ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header nav .tags ul li{
+    padding: 15px;
+}
+header nav .tags ul li a{
+    text-decoration: none;
+    color: #FFFFCC;
+    font-size: 18px;
+    font-weight: 700;
+    word-wrap: break-word;
+}
+header nav .button{
+    background: #A08040;
+    color: #fff;
+    padding: 35px 45px;
+    color: white;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 20.22px;
+    letter-spacing: 1.26px;
+    word-wrap: break-word;
+} 
+section{
+    margin-top: 15%;
+    text-align: center;
+}
+section h1 , h2{
+    color: #FFFCCC;
+    font-size: 45px;
+    font-weight: 700;
+    word-wrap: break-word;
+    line-height: 20.22px;
+    letter-spacing: 1.26px;
+}
+section p{
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.11px;
+    word-wrap: break-word;
+}
+section button{
+    padding: 15px 45px;
+    background: rgba(217, 217, 217, 0); 
+    border: 1px #FFFCCC solid; 
+    color: #fff;
+    font-size: 18px;
+}
